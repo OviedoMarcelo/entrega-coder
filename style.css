@@ -13,9 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
-    margin-top: 100px;
-}
 
 h2 {
     text-align: center;
@@ -23,64 +20,27 @@ h2 {
 
 /* **************** HEADER/NAV *****************/
 
-/* contenedor del header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F8B400;
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    top: 0;
-
-}
-
-
-/* Lista para el menú */
-.header nav ul {
-    display: flex;
-    list-style: none;
-
-}
-
-/* elemento del menú */
-.header nav ul li {
-    margin: 20px;
-
-}
-
-/* Enlaces del menú */
-.header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px black;
-
-}
-
-/* Enlaces al posicionarme */
-.header nav ul li a:hover {
-    color: #FF6363;
-    text-shadow: 0;
-    transition: 1s;
-}
-
-/* Propiedades del logo */
-.header img {
-    width: 80px;
+.header{
     height: 80px;
-    margin: 8px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
 }
 
+.nav__boot {
+    background-color: #F8B400;
+    height: 80px;
+    
+}
 
 
 /* **************** MAIN *****************/
 
 /* Contenedor principal del main */
 .main {
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Portada */
@@ -250,12 +210,6 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-
-/* Servicios */
-
-
-
-
 
 /* **************** FOOTER *****************/
 
@@ -478,22 +432,22 @@ h2 {
 
 
 
-/* Responsive footer */
+    /* Responsive footer */
 
-/* Logo */
-.footer__container>img {
-    width: 50px;
-    height: 50px;
-}
+    /* Logo */
+    .footer__container>img {
+        width: 50px;
+        height: 50px;
+    }
 
 
 
-/* iconos social media */
-.footer__container div img {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
+    /* iconos social media */
+    .footer__container div img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
 }
 
 
