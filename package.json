@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/OviedoMarcelo/coder-entrega-final"
+    "url": "git+https://github.com/OviedoMarcelo/coder-canycan.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://https://github.com/OviedoMarcelo/coder-entrega-final"
+    "url": "https://github.com/OviedoMarcelo/coder-canycan/issues"
   },
-  "homepage": "https://https://github.com/OviedoMarcelo/coder-entrega-final#readme",
+  "homepage": "https://github.com/OviedoMarcelo/coder-canycan#readme",
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"

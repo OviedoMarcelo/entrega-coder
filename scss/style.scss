@@ -1,6 +1,23 @@
-a{
-    background-color: red;
-}
+/* Imports */
+/* Base */
+@import "../scss/base/reset";
+@import "../scss/base/variables";
+@import "../scss/base/general";
+@import "../scss/base/breakpoints";
+
+/* Sections*/
+@import "./sections/hero";
+@import "./sections/header";
+@import "./sections/main";
+@import "./sections/footer";
+
+/* Componentes */
+
+
+
+
+
+
 
 
 
