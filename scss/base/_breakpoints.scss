@@ -1,23 +1,5 @@
 @mixin large {
-    @media screen and (min-width: 550px) {
-        @content;
-    }
-}
-
-@mixin tablet {
-    @media screen and (min-width: 780px) {
-        @content;
-    }
-}
-
-@mixin laptop {
-    @media screen and (min-width: 1080px) {
-        @content;
-    }
-}
-
-@mixin widescreen {
-    @media screen and (min-width: 1260px) {
+    @media screen and (max-width: 450px) {
         @content;
     }
 }
