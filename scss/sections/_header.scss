@@ -1,3 +1,4 @@
+
 .header{
     height: 80px;
     .logo{
@@ -8,8 +9,8 @@
             height: 30px;
         }
     }
-    .nav__boot{
-        background-color: $color-orange;
-        height: 80px;
-    }
+}
+
+.nav__boot{
+    background-color: $color-orange;
 }

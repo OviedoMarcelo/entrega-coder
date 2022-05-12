@@ -17,6 +17,14 @@ h2,
 h3 {
   font-family: "Poppins", sans-serif; }
 
+h1 {
+  font-size: 30px;
+  font-weight: 300; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 200; }
+
 ul {
   list-style: none; }
 
@@ -86,9 +94,9 @@ a {
       .header .logo {
         width: 30px;
         height: 30px; } }
-  .header .nav__boot {
-    background-color: #F8B400;
-    height: 80px; }
+
+.nav__boot {
+  background-color: #F8B400; }
 
 .main {
   padding: 10px;
