@@ -2,7 +2,7 @@
 /* Imports */
 /* Base */
 /* Reset */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,28 +10,36 @@
   font-weight: 200;
   box-sizing: border-box; }
 
+.disclaimer {
+  display: none; }
+
 /* Import font */
+/* Font family */
+/* Font width title */
+/* Font width paragraph */
 /* Colores */
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Poppins", sans-serif; }
-
-h1 {
-  font-size: 30px;
-  font-weight: 300; }
-
-h2 {
-  font-size: 20px;
-  font-weight: 200; }
+  font-family: "Roboto", sans-serif;
+  font: 300; }
 
 ul {
   list-style: none; }
 
 a {
   text-decoration: none; }
+
+.h__title {
+  font-family: "Roboto", sans-serif;
+  font: 400;
+  font-size: 40px; }
+
+.p__text {
+  font: 300;
+  font-size: 15px; }
 
 .animate__animated.animate__bounceInDown {
   --animate-duration: 4s;
@@ -72,7 +80,7 @@ a {
   /* Título de la portada */
   /* Texto de la portada */
   /* Botón de la portada */ }
-  .section__hero h1 {
+  .section__hero h2 {
     font-size: 60px;
     color: white;
     font-weight: bold; }
@@ -88,7 +96,8 @@ a {
     border-radius: 15px; }
 
 .header {
-  height: 80px; }
+  height: 80px;
+  font-size: 20px; }
   .header .logo {
     width: 50px;
     height: 50px; }
@@ -178,7 +187,7 @@ a {
       width: 100%;
       padding: 5px 0;
       font-weight: 200;
-      font-family: "Poppins", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 20px; }
       @media (max-width: 0) {
         .gallery-container .gallery-item .gallery-title {

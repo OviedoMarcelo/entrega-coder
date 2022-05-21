@@ -3,17 +3,8 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: $font-main
-}
-
-h1{
-    font-size: 30px;
-    font-weight: $fnt-bold;
-}
-
-h2{
-    font-size: 20px;
-    font-weight: $fnt-normal;
+    font-family: $font-main;
+    font: $font-p-w;
 }
 
 ul {
@@ -22,4 +13,16 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.h__title {
+    font-family: $font-main;
+    font: $font-title-w;
+    font-size: 40px;
+}
+
+
+.p__text {
+    font: $font-p-w;
+    font-size: 15px;
 }
