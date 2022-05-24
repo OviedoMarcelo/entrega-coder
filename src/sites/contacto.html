@@ -16,7 +16,8 @@
     <meta property:'og:title' content="CanyCan | Un lugar diferente para tu perro">
     <meta property:'og:url' content="https://canycan.000webhostapp.com/">
     <meta property:'og:image' content="https://canycan.000webhostapp.com/src/multimedia/images/logoCanyCan.png">
-    <meta property:'og:description' content="Un lugar donde tu mascota perruna podrá saciar sus necesidades. Ofrecemos servicios personalizados de guardería, adiestramiento y entrenamiento, asistido por profesionales capacitados.">
+    <meta property:'og:description'
+        content="Un lugar donde tu mascota perruna podrá saciar sus necesidades. Ofrecemos servicios personalizados de guardería, adiestramiento y entrenamiento, asistido por profesionales capacitados.">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -64,6 +65,135 @@
     </header>
 
 
+    <!-- -----------------------------Main------------------------------ -->
+
+    <main class="container-fluid">
+        <h2 class="h__title">
+            Contacta al equipo de Canycan
+        </h2>
+        <p class="p__text">
+            Si no encontraste lo que buscabas, no te quedes así. <br>
+            A continuación podrás contactarnos por diferentes medios así podemos ajustarnos a vos.
+        </p>
+
+        <!-- Contact Form-->
+        <!-- Wrapper container -->
+        <div class="container py-4">
+
+            <!-- Bootstrap 5 starter form -->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                <!-- Name input -->
+                <div class="mb-3">
+                    <label class="form-label" for="name">Nombre</label>
+                    <input class="form-control" id="name" type="text" placeholder="Nombre"
+                        data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor escríbenos tu nombre 😊
+                    </div>
+                </div>
+
+                <!-- Email address input -->
+                <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Correo electrónico</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Correo electrónico"
+                        data-sb-validations="required, email" />
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Déjanos tu correo para poder
+                        responderte 🙏</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Ingresa un formato válido de
+                        correo
+                        😪
+                    </div>
+                </div>
+
+                <!-- Message input -->
+                <div class="mb-3">
+                    <label class="form-label" for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Detalla tu consulta aquí...✍️"
+                        style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Escribe en que podemos asesorarte
+                        💪</div>
+                </div>
+
+                <!-- Form submissions success message -->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">👌¡Mensaje enviado! En el transcurso de las próximas 24 horas
+                        responderemos tu consulta </div>
+                </div>
+
+                <!-- Form submissions error message -->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+
+                <!-- Form submit button -->
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar mensaje
+                        🐶</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <section class="container-fluid ">
+            <p class="p__text">
+                Si lo que buscas es conocer un poco más el lugar de forma presencial no dudes en programar una cita con nosotros <br>
+                Abajo te dejamos nuestra ubicación 📍
+            </p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26244.327291683407!2d-58.913533179885334!3d-34.69153448314709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc934fcf794971%3A0x80c5ec6871569973!2sEstancia%20Saavedra%20-%20Reserva%20Natural!5e0!3m2!1ses-419!2sar!4v1653425917392!5m2!1ses-419!2sar"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+    <!-- -----------------------------End Main------------------------------ -->
+
+    <!-- Footer Start -->
+
+
+    <footer class="footer__container">
+        <img src="../multimedia/images/logoCanyCan.png" alt="Logo CanyCan">
+
+        <!-----------------Urls's footer----------------------------->
+        <nav class="footer__menu">
+            <ul class="menu">
+                <li>
+                    <a href="../../index.html#introduction">Inicio</a>
+                </li>
+                <li>
+                    <a href="../sites/servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="../sites/galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="../sites/tienda.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="../sites/contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </nav>
+        <!-----------------Social media urls's footer----------------------------->
+        <div class="social__media">
+
+            <a title="Nuestro Facebook" href="https://www.facebook.com/canycan" target="_blank"><img
+                    src="../multimedia/images/icons-socialmedia/facebook.png" alt="Logo de Facebook"></a>
+
+            <a title=" Nuestro Instagram" href="https://www.Instagram.com/canycan" target="_blank"><img
+                    src="../multimedia/images/icons-socialmedia/instagram.png" alt="Logo de Instragram"></a>
+
+            <a title="Nuestro Whats App"
+                href="https://wa.me/1158503206/?text=¡Hola! Estoy interesado en sus servicios :)" target="_blank"><img
+                    src="../multimedia/images/icons-socialmedia/whatsapp.png" alt="Logo de Whatsapp"></a>
+        </div>
+
+    </footer>
+
+
+    <!-- Footer end -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -72,6 +202,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
+    <!-- SB Forms JS -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

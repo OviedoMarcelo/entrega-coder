@@ -1,19 +1,13 @@
-$breakpoints: (xs: 0,
-    sm: 450px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px);
+$breakpoints: (xs: 0, /* zero not use it now */
+    sm: 450px, /* mobile */
+    md: 768px, /* tablet */
+    lg: 992px,  /* laptop */
+    xl: 1200px); /* laptop large or big screens*/
 
 @mixin breakpoint($size) {
     @if map-has-key($breakpoints, $size) {
         @media (max-width: #{map-get($breakpoints, $size)}) {
             @content;
         }
-    }
-}
-
-@mixin large {
-    @media screen and (max-width: 450px) {
-        @content;
     }
 }
